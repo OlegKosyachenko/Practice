@@ -3,7 +3,8 @@
 }*/
 
 .page-header *{
-    outline: 1px solid #333;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
 }
 
 .logo {
@@ -23,9 +24,16 @@
 
 .menu-item {
     display: inline-block;
+    margin-right: 10px;
     font-size: 16px;
 }
 
+.menu-item:last-child {
+    margin-right: 0;
+}
+
 .menu-link {
+    outline: 1px solid #333;
     text-transform: uppercase;
+    text-decoration: none;
 }
