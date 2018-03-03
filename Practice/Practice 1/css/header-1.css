@@ -10,6 +10,7 @@
     display: inline-block;
     height: 62px;
     width: 204px;
+    vertical-align: middle;
     background-image: url(../img/delllogo.jpg);
     background-size: cover;
 }
@@ -26,5 +27,5 @@
 }
 
 .menu-link {
-
+    text-transform: uppercase;
 }
